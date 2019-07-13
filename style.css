@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 300px) {
+
+  .container {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /*** typography ***/
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /*** structure ***/
+
+  .logo {
+    width: 100px;
+    margin: auto;
+  }
+
+
+@media screen and (min-width: 800px) {
+
+  /*** typography ***/
+  h1 {
+    font-family: 'Bangla', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 34px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  /*** structure ***/
+
+  .container {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .logo {
+    width: 175px;
+    margin: auto;
+  }
+
+.navigation {
+  display: flex;
+}
+
+.About {
+  padding-right: 50px;
+}
+
+.Contact {
+  padding-left: 50px;
+}
+
+ a {
+   text-decoration: none;
+   color: black;
+  }
+
+ .hero {
+   padding-top: 200px;
+   margin-left: 25%;
+ }
+
+}
