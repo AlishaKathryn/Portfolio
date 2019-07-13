@@ -92,15 +92,23 @@ header {
 .Contact {
   padding-left: 50px;
 }
-
- a {
-   text-decoration: none;
-   color: black;
+  
+a {
+ text-decoration: none;
+ color: black;
   }
 
- .hero {
-   padding-top: 200px;
-   margin-left: 25%;
- }
+.hero {
+  padding-top: 100px;
+  }
+
+.herotext {
+  margin: auto;
+}
+
+.CityScape {
+    padding-top: 50px;
+    width: 100%;
+  }
 
 }
