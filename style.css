@@ -91,11 +91,12 @@ header {
 
 .Contact {
   padding-left: 50px;
+  padding-right: 25px;
 }
-  
+
 a {
- text-decoration: none;
- color: black;
+  text-decoration: none;
+  color: black;
   }
 
 .hero {
@@ -103,7 +104,8 @@ a {
   }
 
 .herotext {
-  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .CityScape {
