@@ -44,8 +44,8 @@
   /*** hero & navigation ***/
 
   .container {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 100%;
   }
 
@@ -91,18 +91,13 @@
 
 /*** projects on home page ***/
 
-  .Projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .titleLeft, .titleRight {
+    margin: auto;
   }
 
-  .PortfolioImg {
-    align-items: center;
-  }
-
-  .title {
-    padding-bottom: 10px;
+  .PortfolioImgLeft, .PortfolioImgRight {
+    margin: auto;
+    width: 75%;
   }
 
   button {
@@ -183,12 +178,11 @@
   }
 
   /*** structure ***/
-  
   /*** hero & navigation ***/
 
   .container {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 100%;
   }
 
@@ -234,32 +228,57 @@
 
   /*** projects on home page ***/
 
-.Projects {
-    display: flex;
-    flex-direction: column;
-  }
 
   .PortfolioImgLeft {
     float: left;
+    width: 65%;
   }
 
   .PortfolioImgRight {
     float: right;
+    width: 65%;
   }
 
   .titleLeft {
     float: left;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
   }
 
   .titleRight {
     float: right;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+  }
+
+  .descriptionLeft {
+    clear: left;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    width: 35%
+  }
+
+  .descriptionRight {
+    clear: right;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    width: 35%;
   }
 
   button {
     height: 65px;
     width: 260px;
+  }
+
+  .buttonRight {
+    float: right;
+    clear: right;
+  }
+
+  .buttonLeft {
+    clear: left;
+    float: left;
   }
 
   .darkgreen {
