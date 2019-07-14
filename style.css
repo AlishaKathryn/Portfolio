@@ -183,6 +183,7 @@
   }
 
   /*** structure ***/
+  
   /*** hero & navigation ***/
 
   .container {
@@ -233,11 +234,27 @@
 
   /*** projects on home page ***/
 
-  .PortfolioImg {
+.Projects {
     display: flex;
-    justify-content: flex-end;
-    height: 75%;
-    width: 75%;
+    flex-direction: column;
+  }
+
+  .PortfolioImgLeft {
+    float: left;
+  }
+
+  .PortfolioImgRight {
+    float: right;
+  }
+
+  .titleLeft {
+    float: left;
+    padding-bottom: 10px;
+  }
+
+  .titleRight {
+    float: right;
+    padding-bottom: 10px;
   }
 
   button {
