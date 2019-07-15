@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 300px) {
+
+  /*** typography ***/
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 26px;
+  }
+
+  h2 {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 26px;
+  }
+
+  p {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 18px;
+  }
+
+  a {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  /*** structure ***/
+
+  /*** hero & navigation ***/
+
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  header {
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+
+  .logo {
+    margin: auto;
+    padding-left: 20px;
+    width: 100px;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .Contact {
+    padding-left: 50px;
+    padding-right: 25px;
+  }
+
+  /** body structure **/
+
+    #HeroColumnLeft {
+      width: 100%;
+    }
+
+    #HeroColumnRight {
+      width: 100%;
+    }
+
+    .CaseStudyImage {
+      width: 75%;
+      display: flex;
+      flex-direction: row;
+    }
+
+    button {
+      height: 65px;
+      width: 260px;
+    }
+
+    button a {
+      color: white;
+    }
+
+    .darkgreen {
+      background-color: rgba(0,51,51,100);
+    }
+
+    .lightgreen {
+      background-color: rgba(6,86,86,100);
+    }
+
+    .container {
+      display: grid;
+      /** grid-template-columns: 200px 200px 200px; **/
+    }
+
+    footer {
+      padding-bottom: 35px;
+    }
+
+    .CityScape {
+      padding-top: 50px;
+      width: 100%;
+    }
+
+    .GetInTouch {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 25px;
+    }
+
+    .SocialIcons {
+      display: flex;
+      justify-content: space-evenly;
+      height: 25px;
+      margin-top: 10px;
+    }
+
+    .PinterestBlack {
+      width: 25px;
+    }
+
+  @media screen and (min-width: 800px) {
+
+    /*** typography ***/
+    h1 {
+      font-family: 'Lato', sans-serif;
+      font-size: 36px;
+      font-weight: 100;
+      line-height: 38px;
+    }
+
+    h2 {
+      font-family: 'Montserrat', 'Open Sans', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 32px;
+    }
+
+    h3 {
+      font-family: 'Lato', sans-serif;
+      font-size: 34px;
+      font-weight: normal;
+      line-height: 36px;
+    }
+
+    p {
+      font-family: 'Montserrat', 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 100;
+      line-height: 20px;
+    }
+
+    a {
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      font-weight: lighter;
+    }
+
+    /*** structure ***/
+    /*** hero & navigation ***/
+
+    .container {
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 100%;
+    }
+
+    header {
+      align-items: center;
+      display: flex;
+      width: 100%;
+    }
+
+    .logo {
+      margin: auto;
+      padding-left: 55px;
+      width: 175px;
+    }
+
+    .navigation {
+      display: flex;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .Contact {
+      padding-left: 50px;
+      padding-right: 25px;
+    }
+
+
+/** body structure **/
+
+  #HeroColumnLeft {
+    width: 50%;
+    float: left;
+  }
+
+  #HeroColumnRight {
+    width: 50%;
+    float: right;
+  }
+
+  .CaseStudyImage {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  button {
+    height: 65px;
+    width: 260px;
+  }
+
+  button a {
+    color: white;
+  }
+
+  .darkgreen {
+    background-color: rgba(0,51,51,100);
+  }
+
+  .lightgreen {
+    background-color: rgba(6,86,86,100);
+  }
+
+/** next two need to be fixed **/
+  .linesRight {
+    padding-left: 100px;
+  }
+
+  .linesLeft {
+    padding-right: 100px;
+  }
+
+  .container {
+    display: grid;
+    /** grid-template-columns: 200px 200px 200px; **/
+  }
+
+  /** footer **/
+    footer {
+      padding-bottom: 35px;
+    }
+
+    .CityScape {
+      padding-top: 50px;
+      width: 100%;
+    }
+
+    .GetInTouch {
+      align-items: center;
+      display: flex;
+      padding-bottom: 25px;
+    }
+
+    .SocialIcons {
+      display: flex;
+      justify-content: space-evenly;
+      height: 25px;
+      margin-top: 10px;
+    }
+
+    .PinterestBlack {
+      width: 25px;
+    }
+  }
