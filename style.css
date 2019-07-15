@@ -228,42 +228,19 @@
 
   /*** projects on home page ***/
 
-
-  .PortfolioImgLeft {
+  #columnLeft {
+    width: 50%;
     float: left;
-    width: 65%;
   }
 
-  .PortfolioImgRight {
+  #columnRight {
+    width: 50%;
     float: right;
-    width: 65%;
   }
-
-  .titleLeft {
-    float: left;
-    padding-bottom: 25px;
-  }
-
-  .titleRight {
-    float: right;
-    padding-bottom: 25px;
-    padding-right: 25px;
-  }
-
-  .descriptionLeft {
-    clear: left;
-    float: left;
+  
+  .description {
     padding-top: 20px;
     padding-bottom: 100px;
-    width: 35%
-  }
-
-  .descriptionRight {
-    clear: right;
-    float: right;
-    padding-top: 20px;
-    padding-bottom: 100px;
-    width: 35%;
   }
 
   button {
@@ -272,13 +249,13 @@
   }
 
   .buttonRight {
-    float: right;
-    clear: right;
+    display: flex;
+    flex-direction: column;
   }
 
   .buttonLeft {
-    clear: left;
-    float: left;
+    display: flex;
+    flex-direction: column;
   }
 
   .darkgreen {
