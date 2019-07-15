@@ -2,9 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Systemize Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alisha Ebling Studio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
   </head>
 
   <body>
@@ -12,17 +14,15 @@
       <div class="logo">
         <img src="Images/AStudio.png" class="logo" alt="Logo">
       </div>
-
       <nav>
-        <ul>
-          <li class="navigation"><a href="about.html">About</a></li>
-          <li class="navigation"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <ul class="navigation">
+        <li class="About"><a href="#about.html">About</a></li>
+        <li class="Contact"><a href="#contact.html">Contact</a></li>
+      </ul>
+    </nav>
     </header>
 
-      <div class="secondary-nav-fixed">
-        <div class="gray-bar"></div>
+    <section class="secondaryNavFixed">
         <ul>
           <li><a href="#Project-Brief">Project Brief</a></li>
           <li><a href="#Research">Research</a></li>
@@ -30,21 +30,28 @@
           <li><a href="#Prototype">Prototype</a></li>
           <li><a href="#Conclusion">Conclusion</a></li>
         </ul>
-      </div>
+    </section>
 
-      <section class="hero-casestudy">
+
+    <section class="hero-casestudy">
       <a id="Project-Brief"></a>
-        <h1>Systemize</h1>
-        <p>Systemize is a cloud-based organization and storage app for the user who needs all of their favorite digital content - from work, to personal, to social, to financial - in one place. It's for those whose work exists outside of the standard 9-5, for whom the difference between work and life is fluid.</p>
-        <button><a href='https://invis.io/KYS37C2HFTU'>View the prototype</a></button>
-        <img src="Images/Systemize.png" alt="Systemize1">
-        <img src="Images/Systemize2.png" alt="Systemize2">
+        <div id="HeroColumnLeft">
+          <h1>Systemize</h1>
+          <p>Systemize is a cloud-based organization and storage app for the user who needs all of their favorite digital content - from work, to personal, to social, to financial - in one place. It's for those whose work exists outside of the standard 9-5, for whom the difference between work and life is fluid.</p>
+          <button class="darkgreen"><a href='https://invis.io/KYS37C2HFTU'>View the prototype</a></button>
+        </div>
+        <div id="HeroColumnRight">
+          <div class="CaseStudyImage">
+            <img src="Images/Systemize.png" class="CaseStudyImage" alt="Systemize1">
+            <img src="Images/Systemize2.png" class="CaseStudyImage" alt="Systemize2">
+          </div>
       </section>
 
-      <div class="lines-left">
-        <img src="Images/lines.png" alt="Case Study Design-left">
+      <div class="linesLeft">
+        <img src="Images/lines.png" class="linesLeft" alt="Case Study Design-left">
       </div>
 
+    <div class="container">
       <section class="roles">
         <h2>Design Role</h2>
         <p>UX Design</p>
@@ -74,8 +81,8 @@
         <div class="horizontal-line"></div>
       </section>
 
-      <div class="lines-right">
-        <img src="Images/lines.png" alt="Case Study Design-right">
+      <div class="linesRight">
+        <img src="Images/lines.png" class="linesRight" alt="Case Study Design-right">
       </div>
 
       <section class="problem">
@@ -83,8 +90,8 @@
         <p>The initial problem began with an opportunity: the digital storage and organization space is still relatively young and not overly crowded, meaning there may be room for another competitor that can meet the needs of more users. The app had to combine features from a variety of other competitors in the space, specifically: save content from the web; upload files from a computer or mobile device; create content, such as notes or documents; and organize content. To fill where other apps were falling short, the new app could also offer the ability to share and collaborate, if this was truly an unmet need of users.</p>
       </section>
 
-      <div class="lines-left">
-        <img src="Images/lines.png" alt="Case Study Design-left">
+      <div class="linesLeft">
+        <img src="Images/lines.png" class="linesLeft" alt="Case Study Design-left">
       </div>
 
       <section class="solution">
@@ -92,8 +99,8 @@
         <p>Systemize takes the qualities of other apps that users know and love, and combines them into one, single place. This allows users to create, organize, and store all of their favorite digital content into just one app. Add in the option of large storage capabilities and real-time work collaboration, and you have an app that meets the needs of the modern user. Finally, most features of the app are free, and users can opt into all capabilities and increased storage for $4.99/month, and all capabilities and the maximum storage for $9.99/month</p>
       </section>
 
-      <div class="lines-right">
-        <img src="Images/lines.png" alt="Case Study Design-right">
+      <div class="linesRight">
+        <img src="Images/lines.png" class="linesRight" alt="Case Study Design-right">
       </div>
 
       <section class="design-process">
@@ -101,8 +108,8 @@
         <p>From user research to final design and all the steps in between, the following walks through each step of the design process for Systemize.</p>
       </section>
 
-      <div class="lines-left">
-        <img src="Images/lines.png" alt="Case Study Design-left">
+      <div class="linesLeft">
+        <img src="Images/lines.png" class="linesLeft" alt="Case Study Design-left">
       </div>
 
       <section class="user-research">
@@ -127,16 +134,16 @@
         <p>35% would pay $5/month for storage</p>
       </section>
 
-      <div class="lines-right">
-        <img src="Images/lines.png" alt="Case Study Design-right">
+      <div class="linesRight">
+        <img src="Images/lines.png" class="linesRight" alt="Case Study Design-right">
       </div>
 
       <section class="user-stories">
         <img src="Images/UserStory.jpg" alt="User Stories">
       </section>
 
-      <div class="lines-left">
-        <img src="Images/lines.png" alt="Case Study Design-left">
+      <div class="linesLeft">
+        <img src="Images/lines.png" class="linesLeft" alt="Case Study Design-left">
       </div>
 
       <section class="competition">
@@ -165,8 +172,8 @@
         <p>Threats: Other competitors in the space doing the exact same thing; and importantly, the extremely limited free space makes competitors more attractive.</p>
       </section>
 
-      <div class="lines-right">
-        <img src="Images/lines.png" alt="Case Study Design-right">
+      <div class="linesRight">
+        <img src="Images/lines.png" class="linesRight" alt="Case Study Design-right">
       </div>
 
       <section class="Summary">
@@ -174,8 +181,8 @@
         <p>From the analysis of three major competitors in the digital storage and organization space, it became clear that there is room for a competitor to succeed in the space who combines some of the best features from all apps, but who can differentiate itself from the others in branding, messaging, and attributes.</p>
       </section>
 
-      <div class="lines-left">
-        <img src="Images/lines.png" alt="Case Study Design-left">
+      <div class="linesLeft">
+        <img src="Images/lines.png" class="linesLeft" alt="Case Study Design-left">
       </div>
 
       <section class="User-Flows">
@@ -183,8 +190,8 @@
         <img src="Images/User-Flows-Collage.jpg" alt="UserFlows">
       </section>
 
-      <div class="lines-right">
-        <img src="Images/lines.png" alt="Case Study Design-right">
+      <div class="linesRight">
+        <img src="Images/lines.png" class="linesRight" alt="Case Study Design-right">
       </div>
 
       <section class="Branding">
@@ -211,16 +218,16 @@
         <img src="Images/Typography-3.png" alt="Typography-3">
       </section>
 
-        <div class="lines-left">
-          <img src="Images/lines.png" alt="Case Study Design-left">
-        </div>
+      <div class="linesLeft">
+        <img src="Images/lines.png" class="linesLeft" alt="Case Study Design-left">
+      </div>
 
         <section class="wireframes">
           <img src="Images/Wireframe-collage.png">
         </section>
 
-        <div class="lines-right">
-          <img src="Images/lines.png" alt="Case Study Design-right">
+        <div class="linesRight">
+          <img src="Images/lines.png" class="linesRight" alt="Case Study Design-right">
         </div>
 
         <section class="UX-writing">
@@ -230,8 +237,8 @@
           <img src="Images/LandingPage-3.png" alt="LandingPage-3">
         </section>
 
-        <div class="lines-left">
-          <img src="Images/lines.png" alt="Case Study Design-left">
+        <div class="linesLeft">
+          <img src="Images/lines.png" class="linesLeft" alt="Case Study Design-left">
         </div>
 
         <section class="mockups">
@@ -242,8 +249,8 @@
           <img src="Images/Dashboard-Mobile3.png" alt="Dashboard3">
         </section>
 
-        <div class="lines-right">
-          <img src="Images/lines.png" alt="Case Study Design-right">
+        <div class="linesRight">
+          <img src="Images/lines.png" class="linesRight" alt="Case Study Design-left">
         </div>
 
         <section class="user-testing">
@@ -252,8 +259,8 @@
           <p>Through user testing, I learned I needed to include descriptions for symbols in the headings to help guide users. I needed to also include a clear way for users to sort through their files, folders, and groups, and this prompted me to add the "Organize By" dropdown menu. Finally, from user testing, I moved from a color palette of two types of pinks to just one. This was based on preference testing. Finally, I created both a light and dark option, a decision that also came out of user testing.</p>
         </section>
 
-        <div class="lines-left">
-          <img src="Images/lines.png" alt="Case Study Design-left">
+        <div class="linesLeft">
+          <img src="Images/lines.png" class="linesLeft" alt="Case Study Design-left">
         </div>
 
         <section class="prototype">
@@ -262,8 +269,8 @@
           <img src="Images/Systemize-Final-Prototype.jpg" alt="Final-Prototype">
         </section>
 
-        <div class="lines-right">
-          <img src="Images/lines.png" alt="Case Study Design-right">
+        <div class="linesRight">
+          <img src="Images/lines.png" class="linesRight" alt="Case Study Design-left">
         </div>
 
         <section class="conclusion">
@@ -271,16 +278,17 @@
           <h3>Conclusion</h3>
           <p>The user survey at the beginning was crucial to understanding what users were looking for with this kind of an app in order to make the project successful. I was surprised to learn that there were many opinions about storing and organizing digital content, which made me realize how critical these tools really are to our everyday lives.</p>
           <p>One of my assumptions, which proved to be correct, was that users needed options for organizing and storing content beyond work files and projects. This led me to understand that the current branding of many of the leading apps in the space  were limited in their scope and ability to meet the needs of users, which is why users tend to use multiple storage apps. This homogeneity led me to the decision to make something that looked and felt fresh and different, but that would have as its basic core features options that meet the needs of the majority of users.</p>
-          <button><a href='https://invis.io/WRS3AEC6EHX'>View the desktop prototype</a></button>
-          <button><a href='https://invis.io/KYS37C2HFTU'>View the mobile prototype</a></button>
-          <button><a href="#Project-Brief">Back to the top</a></button>
+          <button class="darkgreen"><a href='https://invis.io/WRS3AEC6EHX'>View the desktop prototype</a></button>
+          <button class="darkgreen"><a href='https://invis.io/KYS37C2HFTU'>View the mobile prototype</a></button>
+          <button class="lightgreen"><a href="#Project-Brief">Back to the top</a></button>
+        </div>
         </section>
 
-        <footer>
-          <div class="CityCenter">
-            <img src="Images/CityScape.png" alt="CityScape">
-          </div>
+        <div class="CityScape">
+          <img src="Images/CityScape.png" class="CityScape" alt="CityScape">
+        </div>
 
+        <footer>
           <div class="GetInTouch">
             <h1>--Get in touch.</h1>
             <p>alisha.ebling.com</p>
@@ -289,7 +297,7 @@
           <div class="SocialIcons">
             <img src="Images/VSCO.svg" alt="VSCO">
             <img src="Images/Instagram.svg" alt="Instagram">
-            <img src="Images/Pinterest-Black.png" alt="Pinterest-Black">
+            <img src="Images/Pinterest-black.svg" class="PinterestBlack" alt="PinterestBlack">
             <img src="Images/LinkedIn.svg" alt="LinkedIn">
           </div>
         </footer>
