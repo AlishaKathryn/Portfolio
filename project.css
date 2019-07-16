@@ -170,6 +170,40 @@
       margin: auto;
     }
 
+    .userFlows {
+      width: 100%;
+      padding-top: 10px;
+    }
+
+    .systemizeLogo, .systemizeButtons, .systemizeColors {
+      width: 65%;
+      margin: auto;
+    }
+
+    .typographyOne {
+      width: 100%;
+      margin: auto;
+      padding-bottom: 10px;
+    }
+
+    .typographyTwo {
+      width: 100%;
+      margin: auto;
+    }
+
+    #columnLeft {
+      width: 100%;
+    }
+
+    #columnRight {
+      width: 100%;
+    }
+
+    .wireframes {
+      width: 100%;
+    }
+
+
 /** footer **/
     footer {
       padding-bottom: 35px;
@@ -333,17 +367,17 @@
   }
 
   #columnOne {
-    width: 33%;
+    width: 30%;
     float: left;
   }
 
   #columnTwo {
-    width: 33%;
+    width: 30%;
     margin: auto;
   }
 
   #columnThree {
-    width: 33%;
+    width: 30%;
     float: right;
   }
 
@@ -373,12 +407,44 @@
   .icon {
     width: 50px;
     margin: auto;
+    padding-bottom: 25px;
+    padding-top: 10px;
   }
 
-  /**.firstContainer {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-  }**/
+  .userFlows {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .systemizeLogo, .systemizeButtons, .systemizeColors {
+    width: 75%;
+  }
+
+  .typographyOne {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .typographyTwo {
+    width: 100%;
+  }
+
+  #columnLeft {
+    width: 50%;
+    float: left;
+  }
+
+  #columnRight {
+    width: 50%;
+    float: right;
+  }
+
+  .wireframes {
+    width: 100%;
+  }
+
+
 
   /** footer **/
     footer {
