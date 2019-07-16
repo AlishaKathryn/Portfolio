@@ -86,8 +86,12 @@
     }
 
     h1, h2, h3 {
-      padding-top: 25px;
-      padding-bottom: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    p {
+        padding-bottom: 10px;
     }
 
     .heroHeading {
@@ -117,16 +121,56 @@
     }
 
     .CaseStudyImage {
-      width: 65%;
       display: flex;
       flex-direction: row;
+      width: 65%;
     }
 
-    .container1 {
-      display: grid;
-      /** grid-template-columns: 200px 200px 200px; **/
+    .linesRight, .linesLeft {
+      width: 100%;
     }
 
+    #columnOne {
+      width: 100%;
+      margin: auto;
+    }
+
+    #columnOne p {
+      padding-bottom: 10px;
+    }
+
+    #columnTwo {
+      width: 100%;
+      margin: auto;
+    }
+
+    #columnTwo p {
+      padding-bottom: 10px;
+    }
+
+    #columnThree {
+      width: 100%;
+      margin: auto;
+    }
+
+    #columnThree p {
+      padding-bottom: 10px;
+    }
+
+    .centered {
+      text-align: center;
+    }
+
+    .userStories {
+      width: 100%;
+    }
+
+    .icon {
+      width: 50px;
+      margin: auto;
+    }
+
+/** footer **/
     footer {
       padding-bottom: 35px;
     }
@@ -240,8 +284,12 @@
   }
 
   h1, h2, h3 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  p {
+    padding-bottom: 20px;
   }
 
   .heroHeading {
@@ -297,6 +345,34 @@
   #columnThree {
     width: 33%;
     float: right;
+  }
+
+  .row {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .problem {
+    padding-right: 50px;
+  }
+
+  .solution {
+    text-align: right;
+    padding-left: 50px;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  .userStories {
+    width: 100%;
+  }
+
+  .icon {
+    width: 50px;
+    margin: auto;
   }
 
   /**.firstContainer {
