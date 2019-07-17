@@ -40,7 +40,6 @@
   }
 
   /*** structure ***/
-
   /*** hero & navigation ***/
 
   .container {
@@ -111,19 +110,19 @@
   padding-top: 20px;
 }
 
-  button {
-    height: 55px;
-    width: 200px;
-  }
+button {
+  height: 55px;
+  width: 200px;
+}
 
-  button a {
-    color: white;
-  }
+button a {
+   color: white;
+}
 
-  .buttonRight {
-    display: flex;
-    flex-direction: column;
-  }
+.buttonRight {
+  display: flex;
+  flex-direction: column;
+}
 
   .buttonLeft {
     display: flex;
@@ -146,6 +145,8 @@
     width: 100%;
   }
 
+  /** footer **/
+
   footer {
     padding-bottom: 35px;
   }
@@ -159,17 +160,14 @@
 
   .SocialIcons {
     display: flex;
-    justify-content: space-evenly;
     height: 25px;
+    justify-content: space-evenly;
     margin-top: 10px;
   }
 
   .PinterestBlack {
     width: 25px;
   }
-
-  /*** Case Study - Systemize ***/
-
 
 
 @media screen and (min-width: 800px) {
@@ -261,18 +259,18 @@
   /*** projects on home page ***/
 
   #columnLeft {
-    width: 50%;
     float: left;
+    width: 50%;
   }
 
   #columnRight {
-    width: 50%;
     float: right;
+    width: 50%;
   }
 
   .description {
-    padding-top: 20px;
     padding-bottom: 100px;
+    padding-top: 20px;
   }
 
   button {
@@ -307,13 +305,15 @@
   }
 
   .CityRight {
-    padding-right: 200px;
+    float: right;
+    width: 75%;
   }
 
   .CityLeft {
-    padding-left: 200px;
+    width: 75%;
   }
 
+/** footer **/
   footer {
     padding-bottom: 35px;
   }
@@ -331,7 +331,7 @@
     margin-top: 10px;
   }
 
-  .PinterestBlack {
+  .PinterestBlack{
     width: 25px;
   }
 }
