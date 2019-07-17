@@ -40,7 +40,6 @@
   }
 
   /*** structure ***/
-
   /*** hero & navigation ***/
 
   .container {
@@ -77,160 +76,217 @@
 
   /** body structure **/
 
-    #HeroColumnLeft {
-      width: 100%;
-    }
+  .secondaryNavFixed {
+    background-color: rgba(216, 216, 216, 100);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+  }
 
-    #HeroColumnRight {
-      width: 100%;
-    }
+  a .projectBrief {
+    padding-left: 50px;
+  }
 
-    h1, h2, h3 {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
+ .research {
+    padding-left: 50px;
+  }
 
-    p {
-        padding-bottom: 10px;
-    }
+  .artifacts {
+    padding-left: 50px;
+  }
 
-    .heroHeading {
-      padding-top: 25px;
-      padding-bottom: 25px;
-    }
+ .prototype {
+    padding-left: 50px;
+  }
 
-    .heroParagraph {
-      padding-bottom: 50px;
-    }
+  .conclusion {
+    padding-left: 50px;
+  }
 
-    button {
-      height: 65px;
-      width: 260px;
-    }
+  #HeroColumnLeft {
+    width: 100%;
+  }
 
-    button a {
-      color: white;
-    }
+  #HeroColumnRight {
+    width: 100%;
+  }
 
-    .darkgreen {
-      background-color: rgba(0,51,51,100);
-    }
+  h1, h2, h3 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
 
-    .lightgreen {
-      background-color: rgba(6,86,86,100);
-    }
+  p {
+    padding-bottom: 10px;
+  }
 
-    .CaseStudyImage {
-      display: flex;
-      flex-direction: row;
-      width: 65%;
-    }
+  .heroHeading {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
 
-    .linesRight, .linesLeft {
-      width: 100%;
-    }
+  .heroParagraph {
+    padding-bottom: 50px;
+  }
 
-    #columnOne {
-      width: 100%;
-      margin: auto;
-    }
+  button {
+    height: 65px;
+    width: 260px;
+  }
 
-    #columnOne p {
-      padding-bottom: 10px;
-    }
+  button a {
+    color: white;
+  }
 
-    #columnTwo {
-      width: 100%;
-      margin: auto;
-    }
+  .darkgreen {
+    background-color: rgba(0,51,51,100);
+  }
 
-    #columnTwo p {
-      padding-bottom: 10px;
-    }
+  .lightgreen {
+    background-color: rgba(6,86,86,100);
+  }
 
-    #columnThree {
-      width: 100%;
-      margin: auto;
-    }
+  .CaseStudyImage {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    width: 65%;
+  }
 
-    #columnThree p {
-      padding-bottom: 10px;
-    }
+  .linesRight, .linesLeft {
+    padding-top: 20px;
+    width: 100%;
+  }
 
-    .centered {
-      text-align: center;
-    }
+  #columnOne {
+    margin: auto;
+    width: 100%;
+  }
 
-    .userStories {
-      width: 100%;
-    }
+  #columnOne p {
+    padding-bottom: 10px;
+  }
 
-    .icon {
-      width: 50px;
-      margin: auto;
-    }
+  #columnTwo {
+    margin: auto;
+    width: 100%;
+  }
 
-    .userFlows {
-      width: 100%;
-      padding-top: 10px;
-    }
+  #columnTwo p {
+    padding-bottom: 10px;
+  }
 
-    .systemizeLogo, .systemizeButtons, .systemizeColors {
-      width: 65%;
-      margin: auto;
-    }
+  #columnThree {
+    margin: auto;
+    width: 100%;
+  }
 
-    .typographyOne {
-      width: 100%;
-      margin: auto;
-      padding-bottom: 10px;
-    }
+  #columnThree p {
+    padding-bottom: 10px;
+  }
 
-    .typographyTwo {
-      width: 100%;
-      margin: auto;
-    }
+  .centered {
+    text-align: center;
+  }
 
-    #columnLeft {
-      width: 100%;
-    }
+  .userStories {
+    width: 100%;
+  }
 
-    #columnRight {
-      width: 100%;
-    }
+  .icon {
+    margin: auto;
+    width: 50px;
+  }
 
-    .wireframes {
-      width: 100%;
-    }
+  .userFlows {
+    padding-top: 10px;
+    width: 100%;
+  }
 
+  .systemizeLogo, .systemizeButtons, .systemizeColors {
+    margin: auto;
+    width: 65%;
+  }
+
+  .typographyOne {
+    margin: auto;
+    width: 100%;
+  }
+
+  .typographyTwo {
+    margin: auto;
+    width: 100%;
+  }
+
+  #columnLeft {
+    width: 100%;
+  }
+
+  #columnRight {
+    width: 100%;
+  }
+
+  .wireframes {
+    width: 100%;
+  }
+
+  .UXwriting {
+    width: 75%;
+  }
+
+  .highFiMockups {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+
+  .finalPrototype {
+    width: 75%;
+  }
+
+  .prototypeButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .backToTop {
+    display: flex;
+    justify-content: center;
+  }
 
 /** footer **/
-    footer {
-      padding-bottom: 35px;
-    }
+  footer {
+    padding-bottom: 35px;
+  }
 
-    .CityScape {
-      padding-top: 50px;
-      width: 100%;
-    }
+  .CityScape {
+    padding-top: 50px;
+    width: 100%;
+  }
 
-    .GetInTouch {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 25px;
-    }
+  .GetInTouch {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
 
-    .SocialIcons {
-      display: flex;
-      justify-content: space-evenly;
-      height: 25px;
-      margin-top: 10px;
-    }
+  .SocialIcons {
+    display: flex;
+    height: 25px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
 
-    .PinterestBlack {
-      width: 25px;
-    }
+  .PinterestBlack {
+    width: 25px;
+  }
+
 
   @media screen and (min-width: 800px) {
 
@@ -306,24 +362,51 @@
 
 
 /** body structure **/
+  .secondaryNavFixed {
+    background-color: rgba(216, 216, 216, 100);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  a .projectBrief {
+    padding-left: 100px;
+  }
+
+ .research {
+    padding-left: 100px;
+  }
+
+  .artifacts {
+    padding-left: 100px;
+  }
+
+ .prototype {
+    padding-left: 100px;
+  }
+
+  .conclusion {
+    padding-left: 100px;
+  }
 
   #HeroColumnLeft {
-    width: 50%;
     float: left;
+    width: 45%;
   }
 
   #HeroColumnRight {
-    width: 50%;
     float: right;
+    width: 45%;
   }
 
   h1, h2, h3 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
   }
 
   p {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
 
   .heroHeading {
@@ -353,32 +436,41 @@
   }
 
   .CaseStudyImage {
-    width: 65%;
     display: flex;
     flex-direction: row;
-  }
-
-  .linesRight {
-    padding-left: 100px;
-  }
-
-  .linesLeft {
-    padding-right: 100px;
+    width: 65%;
   }
 
   #columnOne {
-    width: 30%;
     float: left;
+    justify-content: flex-start;
+    width: 30%;
   }
 
   #columnTwo {
-    width: 30%;
+    justify-content: flex-start;
     margin: auto;
+    width: 30%;
   }
 
   #columnThree {
-    width: 30%;
     float: right;
+    justify-content: flex-start;
+    width: 30%;
+  }
+
+  .linesRight, .linesLeft {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .linesRight {
+    padding-left: 75px;
+  }
+
+  .linesLeft {
+    padding-right: 75px;
   }
 
   .row {
@@ -388,12 +480,12 @@
   }
 
   .problem {
-    padding-right: 50px;
+    padding-right: 75px;
   }
 
   .solution {
+    padding-left: 75px;
     text-align: right;
-    padding-left: 50px;
   }
 
   .centered {
@@ -405,15 +497,15 @@
   }
 
   .icon {
-    width: 50px;
     margin: auto;
     padding-bottom: 25px;
     padding-top: 10px;
+    width: 50px;
   }
 
   .userFlows {
-    width: 100%;
     padding-top: 10px;
+    width: 100%;
   }
 
   .systemizeLogo, .systemizeButtons, .systemizeColors {
@@ -421,9 +513,7 @@
   }
 
   .typographyOne {
-    width: 75%;
-    margin: auto;
-    padding-bottom: 10px;
+    width: 100%;
   }
 
   .typographyTwo {
@@ -431,17 +521,47 @@
   }
 
   #columnLeft {
-    width: 50%;
     float: left;
+    width: 45%;
   }
 
   #columnRight {
-    width: 50%;
     float: right;
+    width: 45%;
   }
 
   .wireframes {
     width: 100%;
+  }
+
+  .UXwriting {
+    display: flex;
+    width: 75%;
+  }
+
+  .highFiMockups {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+  }
+
+  .finalPrototype {
+    width: 75%;
+  }
+
+  .prototypeButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .backToTop {
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -464,8 +584,8 @@
 
     .SocialIcons {
       display: flex;
-      justify-content: space-evenly;
       height: 25px;
+      justify-content: space-evenly;
       margin-top: 10px;
     }
 
