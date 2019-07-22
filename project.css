@@ -35,8 +35,9 @@
 
   a {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: lighter;
+    line-height: 20px;
   }
 
   /*** structure ***/
@@ -59,9 +60,8 @@
   }
 
   .logo {
-    margin: auto;
-    padding-left: 20px;
-    width: 100px;
+    text-align: center;
+    width: 50%;
   }
 
   .navigation {
@@ -319,14 +319,15 @@
     p {
       font-family: 'Montserrat', 'Open Sans', sans-serif;
       font-size: 18px;
-      font-weight: 100;
+      font-weight: lighter;
       line-height: 22px;
     }
 
     a {
       font-family: 'Lato', sans-serif;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: lighter;
+      line-height: 22px;
     }
 
     /*** structure ***/
@@ -350,8 +351,8 @@
 
     .logo {
       margin: auto;
-      padding-left: 55px;
-      width: 175px;
+      padding-left: 80px;
+      width: 50%;
     }
 
     .navigation {
